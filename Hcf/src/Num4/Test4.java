@@ -16,11 +16,8 @@ public class Test4
 		System.out.println("Enter two numbers:");
 		int a=sc.nextInt();
 		int b=sc.nextInt();
-		
 		//checking the user input condition
-		if(a<b)
-		{
-			for(int i=1;i<=a||i<=b;i++)
+			for(int i=1;i<=b;i++)
 			{
 				if(a%i==0 && b%i==0)
 				{
@@ -31,13 +28,8 @@ public class Test4
 			}
 			
 			//Displaying the output
-			System.out.print("HCF of "+a+" and "+b+" is:"+count);
-		}
-		
-		//if the number entry make not sense 
-		else
-		{
-			System.out.print("Error");
-		}
+			System.out.println("HCF of "+a+" and "+b+" is:"+count);
+			int LCM=(a*b)/count;
+			System.out.print("LCM of "+a+" and "+b+" is:"+LCM);
 	}
 }
