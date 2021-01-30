@@ -1,7 +1,6 @@
-package Array;
 import java.util.*;
-public class Sum 
-{		
+public class Arraysumdual 
+{
 	public static void findsum(int a[],int b[],int sum)
 	{
 		for(int i=0;i<a.length;i++)
